@@ -70,10 +70,14 @@ Las colisiones producidas por estos proyectiles afectan la estructura completa d
 * Actualización continua
 En cada fotograma se realizan tres tareas:
 
-- Avanzar la simulación física.
+  - `Avanzar la simulación física.`
 
-- Actualizar la animación de los cubos.
+  - `Actualizar la animación de los cubos.`
 
-- Renderizar la escena completa desde la cámara.
+  - `Renderizar la escena completa desde la cámara.`
 
 El resultado final permite observar cómo una estructura elaborada puede reaccionar frente a objetos disparados desde un cañón, y cómo los elementos no físicos pueden coexistir con elementos físicamente simulados.
+
+Codigo en codesandbox: https://codesandbox.io/p/sandbox/bold-sunset-ftzk73
+
+Ejemplo de video en youtube: https://youtu.be/1RhEdhjchfA
