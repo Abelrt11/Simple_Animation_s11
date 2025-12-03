@@ -72,7 +72,7 @@ En cada fotograma se realizan tres tareas:
 
 - Avanzar la simulación física.
 
--Actualizar la animación de los cubos.
+- Actualizar la animación de los cubos.
 
 - Renderizar la escena completa desde la cámara.
 
