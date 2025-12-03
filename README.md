@@ -1,12 +1,12 @@
 # Simple_Animation_s11
 Created with CodeSandbox
 
-Animación con Three.js, Ammo.js y Tween.js
+# Animación con Three.js, Ammo.js y Tween.js
 Puente, muro destructible y cañón
 
 Este proyecto implementa una animación 3D utilizando Three.js para el renderizado, Ammo.js para la simulación física y Tween.js para la animación personalizada de objetos. La escena representa un puente sostenido por un muro de ladrillos, con cubos que lo atraviesan y un cañón que dispara proyectiles capaces de destruir la estructura.
 
-Descripción general de la animación
+# Descripción general de la animación
 
 La animación representa un entorno formado por:
 
@@ -22,7 +22,7 @@ Un cañón colocado en la parte frontal de la escena que dispara bolas rojas hac
 
 La escena combina tanto animaciones manuales como comportamientos físicos simulados.
 
-Elementos principales
+# Elementos principales
 Terreno y plataformas laterales
 
 El suelo principal sirve como base de la escena. A ambos lados del puente se colocan dos bloques que representan tierra elevada; estos definen el inicio y el final del recorrido de los cubos.
@@ -46,7 +46,7 @@ Se sitúa frente al muro y dispara bolas rojas en intervalos programados.
 Cada proyectil es un cuerpo físico con velocidad inicial dirigida hacia el muro.
 Cuando los proyectiles impactan contra la estructura, la física de Ammo.js genera el derrumbe del puente o el desplazamiento de ladrillos.
 
-Funcionamiento de la animación
+# Funcionamiento de la animación
 
 Inicialización de gráficos
 La escena, cámara, luces y controles de usuario se configuran mediante Three.js.
@@ -75,19 +75,5 @@ Avanzar la simulación física.
 Actualizar la animación de los cubos.
 
 Renderizar la escena completa desde la cámara.
-
-Objetivo educativo de la animación
-
-Este proyecto combina animación tradicional y simulación física, mostrando cómo integrar:
-
-Modelado básico de estructuras.
-
-Comportamientos físicos realistas mediante Ammo.js.
-
-Animaciones controladas mediante Tween.js o cálculos manuales.
-
-Interacción entre objetos animados y objetos físicos.
-
-Uso de Three.js para construir y renderizar una escena 3D completa.
 
 El resultado final permite observar cómo una estructura elaborada puede reaccionar frente a objetos disparados desde un cañón, y cómo los elementos no físicos pueden coexistir con elementos físicamente simulados.
